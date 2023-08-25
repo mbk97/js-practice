@@ -1,0 +1,62 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+.count {
+  border: 0;
+  outline: 0;
+  margin-top: 30px;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+}
+.container {
+  width: 400px;
+  height: 150px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btn-wrapper {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.btn-wrapper button:nth-child(1) {
+  background-color: white;
+  color: red;
+  padding: 5px;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn-wrapper button:nth-child(2) {
+  background-color: white;
+  color: blue;
+  padding: 5px;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn-wrapper button:nth-child(3) {
+  background-color: white;
+  color: green;
+  padding: 5px;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}

@@ -1,0 +1,19 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+button {
+  background-color: black;
+  border: 0;
+  width: 140px;
+  padding: 10px;
+  color: white;
+  outline: 0;
+}
+
+h1 {
+  color: white;
+}
