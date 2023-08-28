@@ -1,0 +1,53 @@
+body {
+  overflow-x: hidden;
+  background-color: white;
+}
+
+.open-btn {
+  background-color: rgb(115, 115, 214);
+  border: 0;
+  cursor: pointer;
+  color: white;
+  padding: 5px 10px;
+}
+.modal-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.modal-content {
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  z-index: 2;
+}
+
+.modal-container.active {
+  visibility: visible;
+  opacity: 1;
+}
+
+.title_close_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title_close_flex button {
+  background-color: transparent;
+  border: 0;
+  font-size: 2rem;
+  cursor: pointer;
+}

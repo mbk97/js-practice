@@ -1,0 +1,30 @@
+.tab-btn-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.tab-content {
+  width: 600px;
+}
+
+.tab-btn {
+  cursor: pointer;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-btn.active {
+  background-color: aquamarine;
+  height: 45px;
+  padding: 0 10px;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
